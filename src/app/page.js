@@ -4,6 +4,7 @@ import Footer from "./components/footer";
 import img_1 from "./images/img1.jpg";
 import Link from "next/link";
 import OurWork from "./components/ourwork";
+import OurService from "./components/ourService";
 
 export default function Home() {
   return (
@@ -45,6 +46,7 @@ export default function Home() {
         display advertising, and even mobile apps
       </p> */}
       <OurWork />
+      <OurService />
       <Footer />
     </main>
   );
