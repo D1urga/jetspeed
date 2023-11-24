@@ -2,16 +2,34 @@
 import React from "react";
 import styles from "./styles/navbar.module.css";
 import Icons from "./icons";
-import { useState } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { TiThMenu } from "react-icons/ti";
 import { FaInstagram, FaLinkedin, FaPagelines, FaRocket } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Navbar() {
+  // let prevScrollPos = global.window.scrollY;
+
+  // function stickNavbar() {
+  //   let windowHeight = window.scrollY;
+  //   if (prevScrollPos > windowHeight) {
+  //     document.querySelector("#head").style.top = "0";
+  //   } else {
+  //     document.querySelector("#head").style.top = "-80px";
+  //   }
+  //   prevScrollPos = windowHeight;
+  // }
+  function myscroll() {
+    document.getElementById("foot").scrollIntoView();
+  }
+
+  // useEffect(() => {
+  //   window.addEventListener("scroll", stickNavbar);
+  // }, []);
   const [isShowing, setIsShowing] = useState(false);
   return (
     <div>
-      <div className={styles.outer_div}>
+      <div id="head" className={styles.outer_div}>
         <div className={styles.title}>
           <Icons Icon={FaRocket} font={40} />
           <h1>JetSpeed</h1>
@@ -20,7 +38,7 @@ export default function Navbar() {
           <li
             onClick={() => {
               setIsShowing(!isShowing);
-              document.getElementById("foot").scrollIntoView();
+              myscroll();
             }}
           >
             <Link href="">Home</Link>

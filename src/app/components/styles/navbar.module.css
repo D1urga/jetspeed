@@ -1,5 +1,10 @@
 @media screen and (min-width: 900px) {
   .outer_div {
+    transition: 400ms ease-in-out;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 12;
     background-color: #040a13;
     height: 5rem;
     display: flex;
@@ -40,6 +45,11 @@
 
 @media screen and (max-width: 900px) and (min-width: 520px) {
   .outer_div {
+    transition: 400ms ease-in-out;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 12;
     padding: 0 30px;
     background-color: #040a13;
     height: 4rem;
@@ -59,7 +69,7 @@
     font-size: 25px;
   }
   .list {
-    height: 290px;
+    background-color: white;
     top: 4.06rem;
     right: 0rem;
     position: absolute;
@@ -97,6 +107,11 @@
 
 @media screen and (max-width: 520px) {
   .outer_div {
+    transition: 400ms ease-in-out;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 12;
     padding: 0 10px;
     background-color: #040a13;
     height: 3rem;
@@ -116,8 +131,7 @@
     font-size: 18px;
   }
   .list {
-    height: 270px;
-
+    background-color: white;
     top: 3.06rem;
     right: 0rem;
     position: absolute;
