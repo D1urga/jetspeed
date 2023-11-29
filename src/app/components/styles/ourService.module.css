@@ -1,75 +1,121 @@
 @media screen and (min-width: 900px) {
   .outer_div {
-    background-color: rgb(202, 195, 209);
-    padding: 40px 5vw;
+    background-color: rgb(3, 3, 37);
+    padding: 20px 10vw;
   }
   .cards_div {
-    padding: 50px 0;
+    height: 610px;
+    padding: 20px 0vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
   }
   .outer_div h1 {
-    font-size: 46px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
-    color: rgb(165, 165, 4);
+    color: rgb(244, 194, 153);
   }
   .outer_div h2 {
-    font-size: 36px;
+    font-size: 28px;
     display: flex;
     justify-content: center;
-    color: rgb(60, 58, 53);
+    color: rgb(244, 194, 153);
+  }
+  .divider {
+    height: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+  }
+  .divi {
+    margin-top: 10px;
+    height: 2px;
+    width: 50%;
+    background-color: rgb(244, 194, 153);
   }
 }
 
 @media screen and (max-width: 900px) and (min-width: 520px) {
   .outer_div {
-    background-color: rgb(202, 195, 209);
+    background-color: rgb(3, 3, 37);
     padding: 30px 3vw;
   }
   .cards_div {
-    padding: 20px 0;
+    padding: 20px 2vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
   }
   .outer_div h1 {
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 34px;
     display: flex;
     justify-content: center;
-    color: rgb(165, 165, 4);
+    color: rgb(244, 194, 153);
   }
   .outer_div h2 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     display: flex;
     justify-content: center;
-    color: rgb(60, 58, 53);
+    color: rgb(244, 194, 153);
+  }
+  .divider {
+    height: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+  }
+  .divi {
+    margin-top: 10px;
+    height: 2px;
+    width: 50%;
+    background-color: rgb(244, 194, 153);
   }
 }
 
 @media screen and (max-width: 520px) {
   .outer_div {
-    background-color: rgb(202, 195, 209);
+    background-color: rgb(3, 3, 37);
     padding: 30px 2vw;
   }
   .cards_div {
-    padding: 20px 0;
+    height: 520px;
+    padding: 20px 2vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
   }
   .outer_div h1 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 500;
     display: flex;
     justify-content: center;
-    color: rgb(165, 165, 4);
+    color: rgb(244, 194, 153);
   }
   .outer_div h2 {
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 500;
     display: flex;
     justify-content: center;
-    color: rgb(60, 58, 53);
+    color: rgb(244, 194, 153);
+  }
+  .divider {
+    height: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+  }
+  .divi {
+    margin-top: 10px;
+    height: 2px;
+    width: 50%;
+    background-color: rgb(244, 194, 153);
   }
 }

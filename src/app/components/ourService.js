@@ -29,6 +29,9 @@ export default function OurService() {
     <div className={styles.outer_div}>
       <h1>Our Service</h1>
       <h2>Organic Marketing</h2>
+      <div className={styles.divider}>
+        <div className={styles.divi}></div>
+      </div>
       <div className={styles.cards_div}>
         <ServiceCard
           Icon={FaGlobe}
@@ -50,7 +53,7 @@ Marketing
         <ServiceCard
           Icon={FaEdit}
           title="Content Marketing
-(Blogs/Articles)"
+"
         />
         <ServiceCard
           Icon={FaEnvelope}
@@ -66,6 +69,9 @@ Business Listings
         />
       </div>
       <h2>Paid Marketing</h2>
+      <div className={styles.divider}>
+        <div className={styles.divi}></div>
+      </div>
       <div className={styles.cards_div}>
         <ServiceCard
           Icon={FaGooglePlusG}
@@ -87,7 +93,7 @@ Relations
         <ServiceCard
           Icon={FaGifts}
           title="Virtual Gifts &
-Gift Vouchers"
+Vouchers"
         />
         <ServiceCard
           Icon={FaUserFriends}
@@ -97,8 +103,7 @@ Programs
         />
         <ServiceCard
           Icon={FaCogs}
-          title="Original Equipment
-Manufacturer
+          title="OEMs
 "
         />
       </div>
