@@ -56,7 +56,7 @@
 @media screen and (max-width: 520px) {
   .outer_div {
     width: 92%;
-    margin: 5px 5px;
+    margin: 10px 5px;
     background-color: rgb(18, 20, 58);
     box-shadow: rgb(83, 70, 70) 1px 1px 1px 1px;
     border-radius: 3px;
@@ -68,10 +68,10 @@
     display: flex;
     align-items: center;
     display: flex;
-    height: 70px;
+    height: 110px;
     width: 100%;
     margin: 10px;
-    padding: 15px;
+    padding: 20px;
     color: rgb(175, 175, 93);
   }
   .heading {
@@ -84,7 +84,7 @@
   }
   .heading h3 {
     font-weight: 500;
-    font-size: 11px;
+    font-size: 16px;
     color: rgb(246, 242, 172);
   }
 }
