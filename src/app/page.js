@@ -5,6 +5,7 @@ import img_1 from "./images/img1.jpg";
 import Link from "next/link";
 import OurWork from "./components/ourwork";
 import OurService from "./components/ourService";
+import ContactUs from "./components/contactUs";
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
       </p> */}
       {/* <OurWork /> */}
       <OurService />
+      <ContactUs />
       <Footer />
     </main>
   );
