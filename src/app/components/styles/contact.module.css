@@ -105,8 +105,11 @@
     color: rgb(205, 212, 219);
   }
   .google_form {
-    width: 40vw;
+    width: 500px;
     height: 100vh;
+  }
+  .dialog {
+    width: 100vw;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 520px) {
@@ -117,9 +120,9 @@
 }
 @media screen and (max-width: 520px) {
   .google_form {
-    width: calc(100vw +90px) !important;
-    height: 80vh;
-    font-size: 10px;
-    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+  .dialog {
   }
 }

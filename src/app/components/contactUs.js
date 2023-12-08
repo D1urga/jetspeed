@@ -28,15 +28,17 @@ export default function ContactUs() {
   return (
     <div className={styles.main_div}>
       <Dialog
-        width="900px"
-        sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 4 }}
+        sx={{
+          color: "#fff",
+          zIndex: (theme) => theme.zIndex.drawer + 4,
+        }}
         open={open}
         onClick={handleClose}
+        className={styles.dialog}
       >
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSdpMNhqILTaVJc1tv8uZEHccXrtgPxNGEB3kQF507fUwZJfHg/viewform?embedded=true"
           className={styles.google_form}
-          width="100%"
         >
           Loading…
         </iframe>
