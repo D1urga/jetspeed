@@ -84,7 +84,7 @@
     padding: 30px 2vw;
   }
   .cards_div {
-    height: 1220px;
+    height: 1320px;
     padding: 20px 2vw;
     display: grid;
     grid-template-columns: repeat(1, 1fr);

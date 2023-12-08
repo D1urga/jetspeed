@@ -68,14 +68,14 @@
     display: flex;
     align-items: center;
     display: flex;
-    height: 110px;
+    height: 120px;
     width: 100%;
     margin: 10px;
     padding: 20px;
-    color: rgb(175, 175, 93);
+    color: rgb(176, 176, 103);
   }
   .heading {
-    height: 35px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
