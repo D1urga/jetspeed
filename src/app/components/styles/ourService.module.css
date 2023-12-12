@@ -1,6 +1,6 @@
 @media screen and (min-width: 900px) {
   .outer_div {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(245, 231, 246);
     padding: 20px 10vw;
   }
   .cards_div {
@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 900px) and (min-width: 520px) {
   .outer_div {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(234, 219, 235);
     padding: 30px 3vw;
   }
   .cards_div {
@@ -143,11 +143,11 @@
 
 @media screen and (max-width: 520px) {
   .outer_div {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(234, 219, 235);
     padding: 30px 2vw;
   }
   .cards_div {
-    height: 1320px;
+    height: 1360px;
     padding: 20px 2vw;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -156,14 +156,14 @@
   }
   .outer_div h1 {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     color: rgb(125, 109, 4);
   }
   .outer_div h2 {
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     color: rgb(125, 109, 4);
@@ -173,8 +173,8 @@
   }
   .bd_main {
     background-color: rgb(235, 228, 228);
-    height: 550px;
-    width: 85vw;
+    height: 525px;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
