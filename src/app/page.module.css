@@ -81,6 +81,7 @@
   .outer_div {
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
   }
   .left_div {
     width: 100%;
@@ -152,6 +153,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 40px;
   }
   .left_div {
     width: 100%;
@@ -163,7 +165,7 @@
   .left_div h1 {
     font-size: 40px;
     font-weight: 600;
-    color: rgb(150, 136, 24);
+    color: rgb(140, 125, 6);
     user-select: none;
     line-height: 0.6;
     margin-bottom: 10px;
@@ -175,9 +177,9 @@
     margin-top: 10px;
   }
   .left_div h2 {
-    font-size: 19px;
-    margin: 10px 25px 20px;
-    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 20px 20px;
+    font-weight: 700;
     text-align: center;
   }
   .left_div p {
@@ -214,6 +216,7 @@
     background-color: #040a13;
     color: rgb(222, 232, 233);
     border-radius: 3px;
+    margin-bottom: 20px;
   }
   .bottom {
     margin: 30px 50px;
