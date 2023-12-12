@@ -1,13 +1,11 @@
-"use client";
 import React from "react";
 import styles from "./styles/contact.module.css";
 import Link from "next/link";
 import Icons from "./icons";
-import { useState } from "react";
-import Button from "@mui/material/Button";
+
 import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
-import Dialog from "@mui/material/Dialog";
+
 import {
   FaLinkedin,
   FaTwitter,
@@ -15,34 +13,14 @@ import {
   FaEnvelope,
   FaInstagram,
   FaPhone,
+  FaWhatsapp,
+  FaList,
+  FaListAlt,
 } from "react-icons/fa";
 
 export default function ContactUs() {
-  const [open, setOpen] = useState(false);
-  const handleClose = () => {
-    setOpen(false);
-  };
-  const handleOpen = () => {
-    setOpen(true);
-  };
   return (
     <div className={styles.main_div}>
-      <Dialog
-        sx={{
-          color: "#fff",
-          zIndex: (theme) => theme.zIndex.drawer + 4,
-        }}
-        open={open}
-        onClick={handleClose}
-        className={styles.dialog}
-      >
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdpMNhqILTaVJc1tv8uZEHccXrtgPxNGEB3kQF507fUwZJfHg/viewform?embedded=true"
-          className={styles.google_form}
-        >
-          Loading…
-        </iframe>
-      </Dialog>
       <h1>Contact Us</h1>
       <div className={styles.outer_div}>
         <div className={styles.div1}>
@@ -52,22 +30,23 @@ export default function ContactUs() {
           </p>
           <div className={styles.frm}>
             <h2>Please fill the google form</h2>
-            <button className={styles.btn} onClick={handleOpen}>
-              Google Form
-            </button>
+            <div>
+              <Link href="//" className={styles.btn}>
+                <FaListAlt className={styles.ic1} />
+                Google Form
+              </Link>
+            </div>
           </div>
           <div className={styles.frm}>
             <h2>Connect with us on Whatsapp</h2>
-            <Link
-              href="https://in.pinterest.com/pin/540009811581633201/"
-              className={styles.btn}
-            >
+            <Link href="https://wa.me/6396937375" className={styles.btn}>
+              <FaWhatsapp className={styles.ic2} />
               WhatsApp
             </Link>
           </div>
         </div>
         <div className={styles.div2}>
-          <h3>Info</h3>
+          <h3 className={styles.tit1}>Get in Touch</h3>
           <div className={styles.cont}>
             <FaEnvelope className={styles.icon} />
             <p>ajeet@gmail.com</p>
@@ -78,7 +57,7 @@ export default function ContactUs() {
             <p>9528295991</p>
             <div></div>
           </div>
-          <h3>Follow us on</h3>
+          <h3 className={styles.tit2}>Follow us on</h3>
 
           <div className={styles.icon_list}>
             <FaInstagram className={styles.logo} />

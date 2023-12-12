@@ -3,9 +3,9 @@ import React from "react";
 import styles from "./styles/serviceCard.module.css";
 import img1 from "../images/img1.jpg";
 
-export default function ServiceCard({ Icon, title }) {
+export default function ServiceCard({ Icon, title, click }) {
   return (
-    <div className={styles.outer_div}>
+    <div className={styles.outer_div} onClick={click}>
       <div>
         <Icon className={styles.pic} />
       </div>

@@ -1,27 +1,30 @@
 @media screen and (min-width: 900px) {
   .outer_div {
     width: 80%;
-    background-color: rgb(18, 20, 58);
-    box-shadow: rgb(83, 70, 70) 1px 1px 1px 1px;
+    background-color: rgb(195, 195, 238);
+    box-shadow: rgb(122, 115, 115) 1px 1px 5px 2px;
     border-radius: 3px;
+  }
+  .outer_div:hover {
+    cursor: pointer;
   }
   .pic {
     height: 130px;
     width: 100%;
     margin: 10px;
     padding: 22px;
-    color: rgb(175, 175, 93);
+    color: rgb(58, 57, 57);
   }
   .heading {
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    background-color: rgb(53, 49, 92);
+    background-color: rgb(233, 223, 223);
   }
   .heading h3 {
-    font-weight: 600;
-    font-size: 15px;
-    color: rgb(246, 242, 172);
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-align: center;
   }
 }
 
@@ -29,8 +32,8 @@
   .outer_div {
     width: 90%;
     margin: 20px 20px;
-    background-color: rgb(18, 20, 58);
-    box-shadow: rgb(83, 70, 70) 1px 1px 1px 1px;
+    background-color: rgb(195, 195, 238);
+    box-shadow: rgb(122, 115, 115) 1px 1px 5px 2px;
     border-radius: 3px;
   }
   .pic {
@@ -38,18 +41,18 @@
     width: 100%;
     margin: 10px;
     padding: 29px;
-    color: rgb(175, 175, 93);
+    color: rgb(58, 57, 57);
   }
   .heading {
     display: flex;
     justify-content: center;
     padding: 30px 0;
-    background-color: rgb(53, 49, 92);
+    background-color: rgb(233, 223, 223);
   }
   .heading h3 {
-    font-weight: 400;
-    font-size: 15px;
-    color: rgb(246, 242, 172);
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
   }
 }
 
@@ -57,8 +60,8 @@
   .outer_div {
     width: 92%;
     margin: 10px 5px;
-    background-color: rgb(18, 20, 58);
-    box-shadow: rgb(83, 70, 70) 1px 1px 1px 1px;
+    background-color: rgb(195, 195, 238);
+    box-shadow: rgb(122, 115, 115) 1px 1px 5px 2px;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
@@ -72,7 +75,7 @@
     width: 100%;
     margin: 10px;
     padding: 25px;
-    color: rgb(165, 165, 104);
+    color: rgb(58, 57, 57);
   }
   .heading {
     height: 50px;
@@ -80,11 +83,11 @@
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    background-color: rgb(53, 49, 92);
+    background-color: rgb(233, 223, 223);
   }
   .heading h3 {
     font-weight: 500;
     font-size: 16px;
-    color: rgb(246, 242, 172);
+    color: rgb(0, 0, 0);
   }
 }
