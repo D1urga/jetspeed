@@ -81,7 +81,6 @@
   .outer_div {
     display: flex;
     flex-direction: column;
-    padding-bottom: 50px;
   }
   .left_div {
     width: 100%;
@@ -153,7 +152,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 40px;
   }
   .left_div {
     width: 100%;
